@@ -1,0 +1,613 @@
+Wed Apr 26 06:47:28 2023 daemon.notice procd: /etc/rc.d/S45nfs: exportfs: could not open /var/lib/nfs/.etab.lock for locking: errno 2 (No such file or directory)
+Wed Apr 26 06:47:28 2023 daemon.notice procd: /etc/rc.d/S45nfs: exportfs: can't lock /var/lib/nfs/etab for writing
+Wed Apr 26 06:47:29 2023 daemon.notice procd: /etc/rc.d/S50autoreboot: Command failed: Not found
+Wed Apr 26 06:47:29 2023 cron.err crond[2515]: crond (busybox 1.35.0) started, log level 5
+Wed Apr 26 06:47:29 2023 daemon.notice procd: /etc/rc.d/S50autoreboot: Auto REBOOT has started.
+Wed Apr 26 06:47:29 2023 daemon.notice procd: /etc/rc.d/S50netserver: Starting netserver with host 'IN(6)ADDR_ANY' port '12865' and family AF_UNSPEC
+Wed Apr 26 06:47:29 2023 user.err : error connecting to sec-mod socket 'ocserv-socket.ee43b26e': No such file or directory
+Wed Apr 26 06:47:29 2023 kern.info kernel: [   23.914806] meson8b-dwmac c9410000.ethernet eth0: PHY [0.2009087f:00] driver [RTL8211F Gigabit Ethernet] (irq=51)
+Wed Apr 26 06:47:29 2023 kern.info kernel: [   23.924239] meson8b-dwmac c9410000.ethernet eth0: Register MEM_TYPE_PAGE_POOL RxQ-0
+Wed Apr 26 06:47:31 2023 kern.info kernel: [   25.451249] meson8b-dwmac c9410000.ethernet eth0: No Safety Features support found
+Wed Apr 26 06:47:31 2023 kern.warn kernel: [   25.453246] meson8b-dwmac c9410000.ethernet eth0: PTP not supported by HW
+Wed Apr 26 06:47:31 2023 kern.info kernel: [   25.460201] meson8b-dwmac c9410000.ethernet eth0: configuring for phy/rgmii link mode
+Wed Apr 26 06:47:31 2023 kern.info kernel: [   25.496784] br-lan: port 1(eth0) entered blocking state
+Wed Apr 26 06:47:31 2023 kern.info kernel: [   25.496874] br-lan: port 1(eth0) entered disabled state
+Wed Apr 26 06:47:31 2023 kern.info kernel: [   25.502014] device eth0 entered promiscuous mode
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'lan' is enabled
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'lan' is setting up now
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'lan' is now up
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'CMCC' is enabled
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'CTCC' is enabled
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'CUCC' is enabled
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'loopback' is enabled
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'loopback' is setting up now
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'loopback' is now up
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Network device 'lo' link is up
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: Interface 'loopback' has link connectivity
+Wed Apr 26 06:47:31 2023 daemon.notice netifd: radio0 (3073): command failed: No error information (-524)
+Wed Apr 26 06:47:32 2023 daemon.err odhcpd[2309]: Failed to send to ff02::1%lan@br-lan (Address not available)
+Wed Apr 26 06:47:32 2023 auth.info sshd[3770]: Server listening on 0.0.0.0 port 22.
+Wed Apr 26 06:47:32 2023 auth.info sshd[3770]: Server listening on :: port 22.
+Wed Apr 26 06:47:32 2023 daemon.notice netifd: radio0 (3073): command failed: I/O error (-5)
+Wed Apr 26 06:47:32 2023 daemon.notice procd: /etc/rc.d/S50verysync: uci: Entry not found
+Wed Apr 26 06:47:32 2023 daemon.notice procd: /etc/rc.d/S50verysync: uci: Entry not found
+Wed Apr 26 06:47:32 2023 daemon.notice procd: /etc/rc.d/S50verysync: uci: Entry not found
+Wed Apr 26 06:47:33 2023 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy0.conf (phy wlan0) --> new PHY
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.009689] br-lan: port 2(wlan0) entered blocking state
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.009801] br-lan: port 2(wlan0) entered disabled state
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.015220] device wlan0 entered promiscuous mode
+Wed Apr 26 06:47:34 2023 daemon.notice hostapd: wlan0: interface state UNINITIALIZED->COUNTRY_UPDATE
+Wed Apr 26 06:47:34 2023 daemon.notice hostapd: wlan0: interface state COUNTRY_UPDATE->HT_SCAN
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.041258] meson8b-dwmac c9410000.ethernet eth0: Link is Up - 1Gbps/Full - flow control rx/tx
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.044394] br-lan: port 1(eth0) entered blocking state
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.049533] br-lan: port 1(eth0) entered forwarding state
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.055151] IPv6: ADDRCONF(NETDEV_CHANGE): eth0.41: link becomes ready
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Network device 'eth0' link is up
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: VLAN 'eth0.41' link is up
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Interface 'CTCC' has link connectivity
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Interface 'CTCC' is setting up now
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.064420] IPv6: ADDRCONF(NETDEV_CHANGE): eth0.400: link becomes ready
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.069892] IPv6: ADDRCONF(NETDEV_CHANGE): eth0.2311: link becomes ready
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.076444] IPv6: ADDRCONF(NETDEV_CHANGE): br-lan: link becomes ready
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: VLAN 'eth0.400' link is up
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Interface 'CMCC' has link connectivity
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Interface 'CMCC' is setting up now
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: VLAN 'eth0.2311' link is up
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Interface 'CUCC' has link connectivity
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Interface 'CUCC' is setting up now
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: bridge 'br-lan' link is up
+Wed Apr 26 06:47:34 2023 daemon.notice netifd: Interface 'lan' has link connectivity
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Found user 'nobody' (UID 65534) and group 'nogroup' (GID 65534).
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Successfully dropped root privileges.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: avahi-daemon 0.8 starting up.
+Wed Apr 26 06:47:34 2023 daemon.warn avahi-daemon[4325]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Loading service file /etc/avahi/services/sftp-ssh.service.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface eth0.2311.IPv6 with address fe80::fe7c:2ff:fe8f:7ed.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: New relevant interface eth0.2311.IPv6 for mDNS.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface eth0.41.IPv6 with address fe80::fe7c:2ff:fe8f:7ed.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: New relevant interface eth0.41.IPv6 for mDNS.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface eth0.400.IPv6 with address fe80::fe7c:2ff:fe8f:7ed.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: New relevant interface eth0.400.IPv6 for mDNS.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface br-lan.IPv6 with address fda0:5ee:f11d::1.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: New relevant interface br-lan.IPv6 for mDNS.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface br-lan.IPv4 with address 192.168.1.254.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: New relevant interface br-lan.IPv4 for mDNS.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: New relevant interface lo.IPv6 for mDNS.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: New relevant interface lo.IPv4 for mDNS.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Network interface enumeration completed.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::fe7c:2ff:fe8f:7ed on eth0.2311.*.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::fe7c:2ff:fe8f:7ed on eth0.41.*.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::fe7c:2ff:fe8f:7ed on eth0.400.*.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering new address record for fda0:5ee:f11d::1 on br-lan.*.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering new address record for 192.168.1.254 on br-lan.IPv4.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering new address record for ::1 on lo.*.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Wed Apr 26 06:47:34 2023 daemon.info avahi-daemon[4325]: Registering HINFO record with values 'AARCH64'/'LINUX'.
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4384]: Plugin pppoe.so loaded.
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4384]: PPPoE plugin from pppd 2.4.9
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4397]: Plugin pppoe.so loaded.
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4397]: PPPoE plugin from pppd 2.4.9
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4398]: Plugin pppoe.so loaded.
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4398]: PPPoE plugin from pppd 2.4.9
+Wed Apr 26 06:47:34 2023 daemon.info bluetoothd[4386]: Bluetooth daemon 5.56
+Wed Apr 26 06:47:34 2023 daemon.info bluetoothd[4386]: Starting SDP server
+Wed Apr 26 06:47:34 2023 daemon.notice pppd[4384]: pppd 2.4.9 started by root, uid 0
+Wed Apr 26 06:47:34 2023 daemon.info bluetoothd[4386]: Bluetooth management interface 1.21 initialized
+Wed Apr 26 06:47:34 2023 daemon.notice pppd[4397]: pppd 2.4.9 started by root, uid 0
+Wed Apr 26 06:47:34 2023 daemon.notice pppd[4398]: pppd 2.4.9 started by root, uid 0
+Wed Apr 26 06:47:34 2023 daemon.notice procd: /etc/rc.d/S65phtunnel: phtunnel is not enabled
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4397]: PPP session is 16302
+Wed Apr 26 06:47:34 2023 daemon.warn pppd[4397]: Connected to 00:00:6e:e6:00:25 via interface eth0.41
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.288871] pppoe-CTCC: renamed from ppp0
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4397]: Renamed interface ppp0 to pppoe-CTCC
+Wed Apr 26 06:47:34 2023 daemon.info pppd[4397]: Using interface pppoe-CTCC
+Wed Apr 26 06:47:34 2023 daemon.notice pppd[4397]: Connect: pppoe-CTCC <--> eth0.41
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.601477] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.602462] br-lan: port 2(wlan0) entered blocking state
+Wed Apr 26 06:47:34 2023 kern.info kernel: [   28.607520] br-lan: port 2(wlan0) entered forwarding state
+Wed Apr 26 06:47:34 2023 user.err : error connecting to sec-mod socket 'ocserv-socket.52b4cc97': No such file or directory
+Wed Apr 26 06:47:34 2023 daemon.info ocserv[4683]: sec-mod: reading supplemental config from files
+Wed Apr 26 06:47:34 2023 daemon.info ocserv[4683]: sec-mod: sec-mod initialized (socket: /var/lib/ocserv/ocserv-socket.52b4cc97.0)
+Wed Apr 26 06:47:34 2023 daemon.notice hostapd: wlan0: interface state HT_SCAN->ENABLED
+Wed Apr 26 06:47:34 2023 daemon.notice hostapd: wlan0: AP-ENABLED
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [32m[2023-04-26 06:47:34][INFO]argc=28 [0m[32m/usr/bin/udpspeeder [0m[32m-s [0m[32m--fec [0m[32m1:3,2:4,8:6,20:10 [0m[32m--fix-latency [0m[32m--disable-obscure [0m[32m-l [0m[32m0.0.0.0:4096 [0m[32m-r [0m[32m127.0.0.1:444 [0m[32m--mode [0m[32m0 [0m[32m--report [0m[32m10 [0m[32m--interval [0m[32m0 [0m[32m--mtu [0m[32m1250 [0m[32m--sock-buf [0m[32m1024 [0m[32m--decode-buf [0m[32m2000 [0m[32m--queue-len [0m[32m200 [0m[32m--log-level [0m[32m4 [0m[32m--fifo [0m[32m/tmp/udpspeeder-tunnel2.fifo [0m[32m
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]fix-latency enabled
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]obscure disabled
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]parsing address: 0.0.0.0:4096
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]its an ipv4 adress
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]ip_address is {0.0.0.0}, port is {4096}
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]parsing address: 127.0.0.1:444
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]its an ipv4 adress
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]ip_address is {127.0.0.1}, port is {444}
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]decode-buf=2000
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]fifo_file =/tmp/udpspeeder-tunnel2.fifo
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]jitter_min=0 jitter_max=0 output_interval_min=0 output_interval_max=0 fec_timeout=8 fec_mtu=1250 fec_queue_len=200 fec_mode=0
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]fec_str=1:3,2:4,8:6,20:10
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]fec_inner_parameter=1:3,2:4,3:5,4:5,5:5,6:6,7:6,8:6,9:7,10:7,11:7,12:8,13:8,14:8,15:9,16:9,17:9,18:10,19:10,20:10
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]now listening at 0.0.0.0:4096
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4697]: [0m[32m[2023-04-26 06:47:34][INFO]fifo_file=/tmp/udpspeeder-tunnel2.fifo
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [32m[2023-04-26 06:47:34][INFO]argc=28 [0m[32m/usr/bin/udpspeeder [0m[32m-s [0m[32m--fec [0m[32m1:3,2:4,8:6,20:10 [0m[32m--fix-latency [0m[32m--disable-obscure [0m[32m-l [0m[32m0.0.0.0:4095 [0m[32m-r [0m[32m127.0.0.1:443 [0m[32m--mode [0m[32m0 [0m[32m--report [0m[32m10 [0m[32m--interval [0m[32m0 [0m[32m--mtu [0m[32m1250 [0m[32m--sock-buf [0m[32m1024 [0m[32m--decode-buf [0m[32m2000 [0m[32m--queue-len [0m[32m200 [0m[32m--log-level [0m[32m4 [0m[32m--fifo [0m[32m/tmp/udpspeeder-tunnel1.fifo [0m[32m
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]fix-latency enabled
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]obscure disabled
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]parsing address: 0.0.0.0:4095
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]its an ipv4 adress
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]ip_address is {0.0.0.0}, port is {4095}
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]parsing address: 127.0.0.1:443
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]its an ipv4 adress
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]ip_address is {127.0.0.1}, port is {443}
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]decode-buf=2000
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]fifo_file =/tmp/udpspeeder-tunnel1.fifo
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]jitter_min=0 jitter_max=0 output_interval_min=0 output_interval_max=0 fec_timeout=8 fec_mtu=1250 fec_queue_len=200 fec_mode=0
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]fec_str=1:3,2:4,8:6,20:10
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]fec_inner_parameter=1:3,2:4,3:5,4:5,5:5,6:6,7:6,8:6,9:7,10:7,11:7,12:8,13:8,14:8,15:9,16:9,17:9,18:10,19:10,20:10
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]now listening at 0.0.0.0:4095
+Wed Apr 26 06:47:34 2023 daemon.info udpspeeder[4696]: [0m[32m[2023-04-26 06:47:34][INFO]fifo_file=/tmp/udpspeeder-tunnel1.fifo
+Wed Apr 26 06:47:34 2023 daemon.notice procd: /etc/rc.d/S90ipsec: Command failed: Not found
+Wed Apr 26 06:47:35 2023 daemon.notice procd: /etc/rc.d/S90kms: KMS Server has started.
+Wed Apr 26 06:47:35 2023 daemon.notice procd: /etc/rc.d/S90mjpg-streamer: /etc/rc.d/S90mjpg-streamer: device '/dev/video0' does not exist
+Wed Apr 26 06:47:35 2023 daemon.info avahi-daemon[4325]: Server startup complete. Host name is OpenWrt.local. Local service cookie is 1314491682.
+Wed Apr 26 06:47:35 2023 daemon.err odhcpd[2309]: Failed to send to ff02::1%lan@br-lan (Address not available)
+Wed Apr 26 06:47:35 2023 daemon.notice netifd: Network device 'wlan0' link is up
+Wed Apr 26 06:47:35 2023 daemon.notice procd: /etc/rc.d/S90turboacc: net.ipv4.tcp_congestion_control = bbr
+Wed Apr 26 06:47:35 2023 daemon.notice procd: /etc/rc.d/S90turboacc: dnscache: no process found
+Wed Apr 26 06:47:35 2023 daemon.notice procd: /etc/rc.d/S90turboacc: sh: you need to specify whom to kill
+Wed Apr 26 06:47:35 2023 daemon.notice procd: /etc/rc.d/S90turboacc: Stop DNS Caching
+Wed Apr 26 06:47:35 2023 daemon.notice procd: /etc/rc.d/S90turboacc: DNSMASQ change
+Wed Apr 26 06:47:35 2023 kern.warn kernel: [   29.324272] meson-gx-mmc d0070000.mmc: unaligned sg len 88 blksize 512, disabling descriptor DMA for transfer
+Wed Apr 26 06:47:36 2023 daemon.info avahi-daemon[4325]: Service "OpenWrt" (/etc/avahi/services/sftp-ssh.service) successfully established.
+Wed Apr 26 06:47:36 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::fe7c:2ff:fe8f:7ec.
+Wed Apr 26 06:47:36 2023 daemon.info avahi-daemon[4325]: New relevant interface wlan0.IPv6 for mDNS.
+Wed Apr 26 06:47:36 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::fe7c:2ff:fe8f:7ec on wlan0.*.
+Wed Apr 26 06:47:36 2023 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Warning: using existing /tmp/usage.db
+Wed Apr 26 06:47:36 2023 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Warning: failed to detect WAN interface.
+Wed Apr 26 06:47:36 2023 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Warning: failed to detect WAN interface.
+Wed Apr 26 06:47:37 2023 daemon.notice procd: /etc/rc.d/S95done: irq name:eth0, irq:30, affinity: 8
+Wed Apr 26 06:47:37 2023 daemon.notice procd: /etc/rc.d/S95done: irq name:xhci-hcd:usb1, irq:49, affinity: 4
+Wed Apr 26 06:47:37 2023 daemon.notice procd: /etc/rc.d/S95done: Set the rps cpu mask of eth0 to 0x3
+Wed Apr 26 06:47:37 2023 daemon.info rclone: Instance "rclone" is disabled.
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4384]: PPP session is 12619
+Wed Apr 26 06:47:39 2023 daemon.warn pppd[4384]: Connected to a4:c6:4f:89:04:d3 via interface eth0.400
+Wed Apr 26 06:47:39 2023 kern.info kernel: [   33.235463] pppoe-CMCC: renamed from ppp1
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4384]: Renamed interface ppp1 to pppoe-CMCC
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4384]: Using interface pppoe-CMCC
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4384]: Connect: pppoe-CMCC <--> eth0.400
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4398]: PPP session is 63586
+Wed Apr 26 06:47:39 2023 daemon.warn pppd[4398]: Connected to d4:c1:c8:92:36:90 via interface eth0.2311
+Wed Apr 26 06:47:39 2023 kern.info kernel: [   33.402428] pppoe-CUCC: renamed from ppp2
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4398]: Renamed interface ppp2 to pppoe-CUCC
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4398]: Using interface pppoe-CUCC
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: Connect: pppoe-CUCC <--> eth0.2311
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4398]: syncppp not active
+Wed Apr 26 06:47:39 2023 daemon.info pppd[4398]: Remote message: Authentication Successful,Welcome!
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: PAP authentication succeeded
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: peer from calling number D4:C1:C8:92:36:90 authorized
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: local  IP address 175.42.124.29
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: remote IP address 175.42.124.1
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: primary   DNS address 58.22.96.66
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: secondary DNS address 218.104.128.106
+Wed Apr 26 06:47:39 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CUCC.IPv4 with address 175.42.124.29.
+Wed Apr 26 06:47:39 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CUCC.IPv4 for mDNS.
+Wed Apr 26 06:47:39 2023 daemon.info avahi-daemon[4325]: Registering new address record for 175.42.124.29 on pppoe-CUCC.IPv4.
+Wed Apr 26 06:47:39 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CUCC.IPv6 with address fe80::fe7c:2a4:7f8f:7ed.
+Wed Apr 26 06:47:39 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CUCC.IPv6 for mDNS.
+Wed Apr 26 06:47:39 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::fe7c:2a4:7f8f:7ed on pppoe-CUCC.*.
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: local  LL address fe80::fe7c:02a4:7f8f:07ed
+Wed Apr 26 06:47:39 2023 daemon.notice pppd[4398]: remote LL address fe80::d6c1:c8ff:fe92:3690
+Wed Apr 26 06:47:39 2023 daemon.notice netifd: Network device 'pppoe-CUCC' link is up
+Wed Apr 26 06:47:39 2023 daemon.notice netifd: Interface 'CUCC' is now up
+Wed Apr 26 06:47:39 2023 daemon.notice netifd: Network alias 'pppoe-CUCC' link is up
+Wed Apr 26 06:47:39 2023 daemon.notice netifd: Interface 'CUCC_6' is enabled
+Wed Apr 26 06:47:39 2023 daemon.notice netifd: Interface 'CUCC_6' has link connectivity
+Wed Apr 26 06:47:39 2023 daemon.notice netifd: Interface 'CUCC_6' is setting up now
+Wed Apr 26 06:47:40 2023 daemon.info avahi-daemon[4325]: Leaving mDNS multicast group on interface pppoe-CUCC.IPv6 with address fe80::fe7c:2a4:7f8f:7ed.
+Wed Apr 26 06:47:40 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CUCC.IPv6 with address 2408:8248:2a80:2c:fe7c:2a4:7f8f:7ed.
+Wed Apr 26 06:47:40 2023 daemon.info avahi-daemon[4325]: Registering new address record for 2408:8248:2a80:2c:fe7c:2a4:7f8f:7ed on pppoe-CUCC.*.
+Wed Apr 26 06:47:40 2023 daemon.info avahi-daemon[4325]: Withdrawing address record for fe80::fe7c:2a4:7f8f:7ed on pppoe-CUCC.
+Wed Apr 26 06:47:40 2023 daemon.notice netifd: Interface 'CUCC_6' is now up
+Wed Apr 26 06:47:41 2023 daemon.warn odhcpd[2309]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Wed Apr 26 06:47:42 2023 user.notice mwan3[3065]: Using firewall mask 0x3F00
+Wed Apr 26 06:47:42 2023 user.notice mwan3[3065]: Max interface count is 60
+Wed Apr 26 06:47:42 2023 daemon.info pppd[4384]: syncppp not active
+Wed Apr 26 06:47:42 2023 daemon.info pppd[4384]: Remote message: Authentication success,Welcome!
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: PAP authentication succeeded
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: peer from calling number A4:C6:4F:89:04:D3 authorized
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CMCC.IPv6 with address fe80::d8f0:465a:5060:fabf.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CMCC.IPv6 for mDNS.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::d8f0:465a:5060:fabf on pppoe-CMCC.*.
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: local  LL address fe80::d8f0:465a:5060:fabf
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: remote LL address fe80::a6c6:4fff:fe89:04d3
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CMCC.IPv4 with address 100.113.176.96.
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: local  IP address 100.113.176.96
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: remote IP address 100.113.0.1
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: primary   DNS address 211.138.151.161
+Wed Apr 26 06:47:42 2023 daemon.notice pppd[4384]: secondary DNS address 211.138.156.66
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CMCC.IPv4 for mDNS.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Registering new address record for 100.113.176.96 on pppoe-CMCC.IPv4.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Withdrawing address record for 100.113.176.96 on pppoe-CMCC.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Leaving mDNS multicast group on interface pppoe-CMCC.IPv4 with address 100.113.176.96.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Interface pppoe-CMCC.IPv4 no longer relevant for mDNS.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CMCC.IPv4 with address 100.113.176.96.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CMCC.IPv4 for mDNS.
+Wed Apr 26 06:47:42 2023 daemon.info avahi-daemon[4325]: Registering new address record for 100.113.176.96 on pppoe-CMCC.IPv4.
+Wed Apr 26 06:47:42 2023 daemon.notice netifd: Network device 'pppoe-CMCC' link is up
+Wed Apr 26 06:47:42 2023 daemon.notice netifd: Interface 'CMCC' is now up
+Wed Apr 26 06:47:42 2023 daemon.notice netifd: Network alias 'pppoe-CMCC' link is up
+Wed Apr 26 06:47:42 2023 daemon.notice netifd: Interface 'CMCC_6' is enabled
+Wed Apr 26 06:47:42 2023 daemon.notice netifd: Interface 'CMCC_6' has link connectivity
+Wed Apr 26 06:47:42 2023 daemon.notice netifd: Interface 'CMCC_6' is setting up now
+Wed Apr 26 06:47:42 2023 user.notice firewall: Reloading firewall due to ifup of lan (br-lan)
+Wed Apr 26 06:47:43 2023 daemon.warn odhcpd[2309]: A default route is present but there is no public prefix on lan thus we don't announce a default route!
+Wed Apr 26 06:47:43 2023 daemon.notice procd: /etc/rc.d/S95shadowsocksr: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Wed Apr 26 06:47:43 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of lan (br-lan)
+Wed Apr 26 06:47:43 2023 daemon.notice procd: /etc/rc.d/S95shadowsocksr: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Wed Apr 26 06:47:43 2023 daemon.notice procd: /etc/rc.d/S95shadowsocksr: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Wed Apr 26 06:47:44 2023 daemon.info avahi-daemon[4325]: Leaving mDNS multicast group on interface pppoe-CMCC.IPv6 with address fe80::d8f0:465a:5060:fabf.
+Wed Apr 26 06:47:44 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CMCC.IPv6 with address 2409:8a34:2a02:c5aa:d8f0:465a:5060:fabf.
+Wed Apr 26 06:47:44 2023 daemon.info avahi-daemon[4325]: Registering new address record for 2409:8a34:2a02:c5aa:d8f0:465a:5060:fabf on pppoe-CMCC.*.
+Wed Apr 26 06:47:44 2023 daemon.info avahi-daemon[4325]: Withdrawing address record for fe80::d8f0:465a:5060:fabf on pppoe-CMCC.
+Wed Apr 26 06:47:44 2023 daemon.info avahi-daemon[4325]: Registering new address record for 2409:8a34:2a2d:a3b0::1 on br-lan.*.
+Wed Apr 26 06:47:44 2023 daemon.notice netifd: Interface 'CMCC_6' is now up
+Wed Apr 26 06:47:45 2023 cron.err crond[7190]: crond (busybox 1.35.0) started, log level 5
+Wed Apr 26 06:47:45 2023 daemon.info procd: Not starting instance acpid::data, command not set
+Wed Apr 26 06:47:45 2023 daemon.err nmbd[7303]: [2023/04/26 06:47:45.977188,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Wed Apr 26 06:47:45 2023 daemon.err nmbd[7303]:   daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+Wed Apr 26 06:47:46 2023 daemon.err smbd[7302]: [2023/04/26 06:47:46.097458,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Wed Apr 26 06:47:46 2023 daemon.err smbd[7302]:   daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+Wed Apr 26 06:47:46 2023 daemon.err smbd[7302]: [2023/04/26 06:47:46.098381,  0] ../../source3/smbd/server.c:1082(smbd_open_one_socket)
+Wed Apr 26 06:47:46 2023 daemon.err smbd[7302]:   smbd_open_one_socket: open_socket_in: Address not available
+Wed Apr 26 06:47:46 2023 daemon.err smbd[7302]: [2023/04/26 06:47:46.098678,  0] ../../source3/smbd/server.c:1082(smbd_open_one_socket)
+Wed Apr 26 06:47:46 2023 daemon.err smbd[7302]:   smbd_open_one_socket: open_socket_in: Address not available
+Wed Apr 26 06:47:46 2023 daemon.info aria2: Instance "main" disabled.
+Wed Apr 26 06:47:46 2023 user.notice dockerd-init: Bridge device 'docker0' already defined in network config
+Wed Apr 26 06:47:46 2023 daemon.notice procd: /etc/rc.d/S99dockerd: uci: Entry not found
+Wed Apr 26 06:47:47 2023 daemon.err dockerd[7727]: time="2023-04-26T06:47:47+08:00" level=warning msg="containerd config version `1` has been deprecated and will be removed in containerd v2.0, please switch to version `2`, see https://github.com/containerd/containerd/blob/main/docs/PLUGINS.md#version-header"
+Wed Apr 26 06:47:47 2023 daemon.err dockerd[7727]: time="2023-04-26T06:47:47.574309052+08:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+Wed Apr 26 06:47:47 2023 daemon.err dockerd[7727]: time="2023-04-26T06:47:47.576547677+08:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+Wed Apr 26 06:47:47 2023 daemon.err dockerd[7727]: time="2023-04-26T06:47:47.584027053+08:00" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+Wed Apr 26 06:47:47 2023 daemon.err dockerd[7727]: time="2023-04-26T06:47:47.644414309+08:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+Wed Apr 26 06:47:47 2023 daemon.err dockerd[7727]: time="2023-04-26T06:47:47.644695726+08:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+Wed Apr 26 06:47:48 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.31.0.1.
+Wed Apr 26 06:47:48 2023 daemon.info avahi-daemon[4325]: New relevant interface docker0.IPv4 for mDNS.
+Wed Apr 26 06:47:48 2023 daemon.info avahi-daemon[4325]: Registering new address record for 172.31.0.1 on docker0.IPv4.
+Wed Apr 26 06:47:52 2023 daemon.info pppd[4397]: syncppp not active
+Wed Apr 26 06:47:52 2023 daemon.info pppd[4397]: CHAP authentication succeeded: Authentication success,Welcome!
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: CHAP authentication succeeded
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: peer from calling number 00:00:6E:E6:00:25 authorized
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CTCC.IPv6 with address fe80::c420:ceaa:a074:a456.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CTCC.IPv6 for mDNS.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::c420:ceaa:a074:a456 on pppoe-CTCC.*.
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: local  LL address fe80::c420:ceaa:a074:a456
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: remote LL address fe80::0200:6eff:fee6:0025
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CTCC.IPv4 with address 218.66.226.33.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CTCC.IPv4 for mDNS.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Registering new address record for 218.66.226.33 on pppoe-CTCC.IPv4.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Withdrawing address record for 218.66.226.33 on pppoe-CTCC.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Leaving mDNS multicast group on interface pppoe-CTCC.IPv4 with address 218.66.226.33.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Interface pppoe-CTCC.IPv4 no longer relevant for mDNS.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CTCC.IPv4 with address 218.66.226.33.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: New relevant interface pppoe-CTCC.IPv4 for mDNS.
+Wed Apr 26 06:47:52 2023 daemon.info avahi-daemon[4325]: Registering new address record for 218.66.226.33 on pppoe-CTCC.IPv4.
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: local  IP address 218.66.226.33
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: remote IP address 218.66.226.1
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: primary   DNS address 218.85.157.99
+Wed Apr 26 06:47:52 2023 daemon.notice pppd[4397]: secondary DNS address 218.85.152.99
+Wed Apr 26 06:47:52 2023 daemon.notice netifd: Network device 'pppoe-CTCC' link is up
+Wed Apr 26 06:47:52 2023 daemon.notice netifd: Interface 'CTCC' is now up
+Wed Apr 26 06:47:52 2023 daemon.notice netifd: Network alias 'pppoe-CTCC' link is up
+Wed Apr 26 06:47:52 2023 daemon.notice netifd: Interface 'CTCC_6' is enabled
+Wed Apr 26 06:47:52 2023 daemon.notice netifd: Interface 'CTCC_6' has link connectivity
+Wed Apr 26 06:47:52 2023 daemon.notice netifd: Interface 'CTCC_6' is setting up now
+Wed Apr 26 06:47:53 2023 daemon.notice netifd: Interface 'CUCC_6' has lost the connection
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Withdrawing address record for 2408:8248:2a80:2c:fe7c:2a4:7f8f:7ed on pppoe-CUCC.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Leaving mDNS multicast group on interface pppoe-CUCC.IPv6 with address 2408:8248:2a80:2c:fe7c:2a4:7f8f:7ed.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CUCC.IPv6 with address fe80::fe7c:2a4:7f8f:7ed.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Registering new address record for fe80::fe7c:2a4:7f8f:7ed on pppoe-CUCC.*.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Leaving mDNS multicast group on interface pppoe-CUCC.IPv6 with address fe80::fe7c:2a4:7f8f:7ed.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CUCC.IPv6 with address 2408:8248:2a80:2c:fe7c:2a4:7f8f:7ed.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Registering new address record for 2408:8248:2a80:2c:fe7c:2a4:7f8f:7ed on pppoe-CUCC.*.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Withdrawing address record for fe80::fe7c:2a4:7f8f:7ed on pppoe-CUCC.
+Wed Apr 26 06:47:53 2023 daemon.info avahi-daemon[4325]: Registering new address record for 2408:8248:2a00:45f0::1 on br-lan.*.
+Wed Apr 26 06:47:53 2023 daemon.notice netifd: Interface 'CUCC_6' is now up
+Wed Apr 26 07:15:30 2023 daemon.info avahi-daemon[4325]: Leaving mDNS multicast group on interface pppoe-CTCC.IPv6 with address fe80::c420:ceaa:a074:a456.
+Wed Apr 26 07:15:30 2023 daemon.info avahi-daemon[4325]: Joining mDNS multicast group on interface pppoe-CTCC.IPv6 with address 240e:378:2a02:b1d4:c420:ceaa:a074:a456.
+Wed Apr 26 07:15:30 2023 daemon.info avahi-daemon[4325]: Registering new address record for 240e:378:2a02:b1d4:c420:ceaa:a074:a456 on pppoe-CTCC.*.
+Wed Apr 26 07:15:30 2023 daemon.info avahi-daemon[4325]: Withdrawing address record for fe80::c420:ceaa:a074:a456 on pppoe-CTCC.
+Wed Apr 26 07:15:30 2023 daemon.info avahi-daemon[4325]: Registering new address record for 240e:379:2b0a:a500::1 on br-lan.*.
+Wed Apr 26 07:15:30 2023 daemon.notice netifd: Interface 'CTCC_6' is now up
+Wed Apr 26 07:15:31 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of loopback (lo)
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: TIMEZONE: using strftime(): 'CST'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: TIMEZONE: fixed as 'CST'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: SIGNAL: Not enabling reaper
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: resources control: allowed file descriptors: soft = 1024, max = 4096
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Adjusted my Out-Of-Memory (OOM) score from 0 to 1000.
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: Cannot adjust netdata scheduling policy to idle (5), with priority 0. Falling back to nice.
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: Cannot get my current process scheduling policy.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: netdata started on pid 9385.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing spawn client.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Executing /usr/lib/netdata/plugins.d/system-info.sh
+Wed Apr 26 07:15:39 2023 daemon.notice procd: /etc/rc.d/S99nfsd: exportfs: Failed to stat /mnt/sda4: No such file or directory
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_CONTAINER_OS_NAME=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_CONTAINER_OS_ID=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_CONTAINER_OS_ID_LIKE=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_CONTAINER_OS_VERSION=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_CONTAINER_OS_VERSION_ID=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_CONTAINER_OS_DETECTION=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_CONTAINER_IS_OFFICIAL_IMAGE=false
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_HOST_OS_NAME=OpenWrt
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_HOST_OS_ID=openwrt
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_HOST_OS_ID_LIKE=lede openwrt
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_HOST_OS_VERSION=SNAPSHOT
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_HOST_OS_VERSION_ID=snapshot
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_HOST_OS_DETECTION=/etc/os-release
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_HOST_IS_K8S_NODE=false
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_KERNEL_NAME=Linux
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_KERNEL_VERSION=5.15.79-flippy-78+o
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_ARCHITECTURE=aarch64
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_VIRTUALIZATION=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_VIRT_DETECTION=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_CONTAINER=unknown
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_CONTAINER_DETECTION=none
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_CPU_LOGICAL_CPU_COUNT=4
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_CPU_VENDOR=ARM
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_CPU_MODEL=Cortex-A53
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_CPU_FREQ=1512000000
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_CPU_DETECTION=lscpu
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_TOTAL_RAM=1898201088
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_RAM_DETECTION=procfs
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_TOTAL_DISK_SIZE=0
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: NETDATA_SYSTEM_DISK_DETECTION=sysfs
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: SQLite database /var/cache/netdata/netdata-meta.db initialization
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: SQLite database initialization completed
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: CONFIG: cannot load user config '/etc/netdata/stream.conf'. Will try stock config.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Host 'OpenWrt' (at registry as 'OpenWrt') with guid '17c8034e-e3bf-11ed-ab8d-fc7c028f07ed' initialized, os 'linux', timezone 'CST', tags '', program_name 'netdata', program_version 'v1.33.1', update every 2, memory mode save, history entries 3996, streaming disabled (to '' with api key ''), health disabled, cache_dir '/var/cache/netdata', varlib_dir '/var/lib/netdata', health_log '/var/lib/netdata/health/health-log.db', alarms default handler '/usr/lib/netdata/plugins.d/alarm-notify.sh', alarms default recipient 'root'
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: PROCFILE: Cannot open file '/etc/netdata/.environment'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9585
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9586
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9586 to GLOBAL_STATS
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9585 to PLUGIN[idlejitt
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9587
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9587 to HEALTH
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9588
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9588 to PLUGINSD
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9592
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9593
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9592 to EXPORTING
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9593 to WEB_SERVER[stat
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: starting worker 2
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9591
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9589
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9590
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9590 to STATSD
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: starting worker 3
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9596
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.idlejitter/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9596 to WEB_SERVER[stat
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9595
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9595 to PLUGIN[tc]
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9600
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9600 to PLUGINSD[perf]
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9594
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9594 to PLUGIN[timex]
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing command server.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9591 to BACKENDS
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9597
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9597 to PLUGIN[diskspac
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9598
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9598 to PLUGINSD[ioping
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: CONFIG: cannot load user exporting config '/etc/netdata/exporting.conf'. Will try the stock version.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: No connector instances to activate
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: EXPORTING: no exporting connectors configured
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9605
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9601
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9601 to WEB_SERVER[stat
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: connected to '/usr/lib/netdata/plugins.d/perf.plugin' running on pid 9602
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: starting worker 4
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9599
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9599 to PLUGIN[proc]
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: called DISABLE. Disabling it.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: PARSER ended
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_metrics/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_metrics/gauges.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread created with task id 9606
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9606 to WEB_SERVER[stat
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_metrics/counters.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: connected to '/usr/lib/netdata/plugins.d/ioping.plugin' running on pid 9607
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: netdata initialization completed. Enjoy real-time performance monitoring!
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: This agent doesn't have ACLK.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_metrics/timers.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: cleaning up...
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 9602) disconnected after 0 successful data collections (ENDs).
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.idlejitter/min.db.
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: child pid 9602 exited with code 1.
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 9602) exited with error code 1 and haven't collected any data. Disabling it.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread with task id 9600 finished
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread with task id 9591 finished
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: cleaning up...
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread with task id 9592 finished
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_metrics/meters.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.idlejitter/max.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9589 to SERVICE
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: set name of thread 9605 to STATSD_COLLECTO
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: STATSD collector thread started with taskid 9605
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_metrics/histograms.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'udp:[::1]:8125'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'udp:127.0.0.1:8125'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:[::1]:8125'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: POLLFD: LISTENER: listening on 'tcp:127.0.0.1:8125'
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.idlejitter/average.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_metrics/sets.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/gauges.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/counters.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/timers.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/meters.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/histograms.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/sets.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/gauges.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/counters.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/timers.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/meters.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/histograms.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/sets.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/unknown.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_events/errors.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_reads/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_reads/tcp.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_reads/udp.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_bytes/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_bytes/tcp.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_bytes/udp.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_packets/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_packets/tcp.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.statsd_packets/udp.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.tcp_connects/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.tcp_connects/connects.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.tcp_connects/disconnects.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: called DISABLE. Disabling it.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: PARSER ended
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 9607) disconnected after 0 successful data collections (ENDs).
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: child pid 9607 exited with code 1.
+Wed Apr 26 07:15:39 2023 daemon.err netdata[9385]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 9607) exited with error code 1 and haven't collected any data. Disabling it.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: thread with task id 9598 finished
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.tcp_connected/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.tcp_connected/connected.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.private_charts/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.private_charts/charts.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/user.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/system.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/user.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/system.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/user.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/system.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/main.db.
+Wed Apr 26 07:15:39 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/run_time.db.
+Wed Apr 26 07:15:40 2023 kern.warn kernel: [   59.015385] NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Wed Apr 26 07:15:40 2023 kern.info kernel: [   59.017653] NFSD: Using legacy client tracking operations.
+Wed Apr 26 07:15:40 2023 kern.info kernel: [   59.023069] NFSD: starting 10-second grace period (net f0000000)
+Wed Apr 26 07:15:40 2023 daemon.notice rpc.statd[9681]: Version 2.5.4 starting
+Wed Apr 26 07:15:40 2023 daemon.warn rpc.statd[9681]: Flags: No-Daemon TI-RPC
+Wed Apr 26 07:15:40 2023 daemon.notice rpc.statd[9681]: Initializing NSM state
+Wed Apr 26 07:15:40 2023 daemon.warn rpc.statd[9681]: Running as root.  chown /var/lib/nfs to choose different user
+Wed Apr 26 07:15:40 2023 daemon.notice rpc.mountd[9682]: Version 2.5.4 starting
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.server_cpu/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._dev/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.server_cpu/user.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.server_cpu/system.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.clock_sync_state/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._dev/avail.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.clock_sync_state/state.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._dev/used.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._dev/reserved_for_root.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread1_cpu/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/guest_nice.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/guest.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread1_cpu/user.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread3_cpu/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/steal.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread3_cpu/user.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/softirq.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._dev/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread1_cpu/system.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread3_cpu/system.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.clock_sync_offset/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._dev/avail.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/irq.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread2_cpu/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.clock_sync_offset/offset.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._dev/used.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.uptime/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread2_cpu/user.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._dev/reserved_for_root.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/user.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread2_cpu/system.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/system.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.uptime/uptime.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread4_cpu/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/nice.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread4_cpu/user.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_timex/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/iowait.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_timex/user.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._run/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.web_thread4_cpu/system.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_timex/system.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/system.cpu/idle.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.clients/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._run/avail.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._run/used.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._run/reserved_for_root.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_timex_dt/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.clients/clients.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.requests/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.plugin_timex_dt/duration.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.requests/requests.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._run/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/cpu.cpu0/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._run/avail.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._run/used.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/cpu.cpu0/guest_nice.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.net/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_inodes._run/reserved_for_root.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/cpu.cpu0/guest.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.net/in.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._/main.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/cpu.cpu0/steal.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/netdata.net/out.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/disk_space._/avail.db.
+Wed Apr 26 07:15:41 2023 daemon.info netdata[9385]: Initializing file /var/cache/netdata/cpu.cpu0/softirq.db.
+Wed Apr 26 07:15:43 2023 user.notice firewall: Reloading firewall due to ifup of CUCC (pppoe-CUCC)
+Wed Apr 26 07:15:44 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of CUCC (pppoe-CUCC)
+Wed Apr 26 07:15:45 2023 user.notice ddns-scripts[10942]: cucc: PID '10942' started at 2023-04-26 07:15
+Wed Apr 26 07:15:45 2023 user.notice ddns-scripts[10943]: cuccv6: PID '10943' started at 2023-04-26 07:15
+Wed Apr 26 07:15:46 2023 cron.err crond[12522]: crond (busybox 1.35.0) started, log level 5
+Wed Apr 26 07:15:46 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Already Stop!
+Wed Apr 26 07:15:47 2023 daemon.notice procd: /etc/rc.d/S99pushbot: pushbot is starting now ...
+Wed Apr 26 07:15:48 2023 daemon.info qbittorrent: Instance "main" disabled.
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99qbittorrent: Command failed: Invalid argument
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99serverchan: serverchan is starting now ...
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99shairport-sync: amixer: Unable to find simple control 'Master',0
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99shairport-sync:
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99shairport-sync: amixer: Unable to find simple control 'Master',0
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99shairport-sync:
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99shairport-sync: amixer: Unable to find simple control 'PCM',0
+Wed Apr 26 07:15:48 2023 daemon.notice procd: /etc/rc.d/S99shairport-sync:
+Wed Apr 26 07:15:49 2023 daemon.notice procd: /etc/rc.d/S99ssr_mudb_server: Command failed: Not found
+Wed Apr 26 07:15:49 2023 cron.err crond[14531]: crond (busybox 1.35.0) started, log level 5
+Wed Apr 26 07:15:49 2023 cron.err crond[14742]: crond (busybox 1.35.0) started, log level 5
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]: ttyd 1.6.3 (libwebsockets 4.1.6-)
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]: tty configuration:
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]:   start command: /bin/login
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]:   close signal: SIGHUP (1)
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]:   terminal type: xterm-256color
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]: LWS: 4.1.6-, loglevel 7
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]: NET CLI SRV H1 H2 WS IPV6-off
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]:    /usr/lib/libwebsockets-evlib_uv.so
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]:  Using foreign event loop...
+Wed Apr 26 07:15:50 2023 daemon.notice ttyd[14878]:  Listening on port: 7681
+Wed Apr 26 07:15:50 2023 user.err ddns-scripts[10942]: cucc: BusyBox nslookup error: '1'
+Wed Apr 26 07:15:51 2023 user.err ddns-scripts[10942]: cucc: BusyBox nslookup error: '1'
+Wed Apr 26 07:15:52 2023 user.warn ddns-scripts[10942]: cucc: Get registered/public IP for 'cucc.ddns.org.cn' failed - retry 1/0 in 60 seconds
+Wed Apr 26 07:15:55 2023 daemon.notice procd: /etc/rc.d/S99zerotier: disabled in config
+Wed Apr 26 07:15:55 2023 daemon.info procd: - init complete -
+Wed Apr 26 07:15:56 2023 user.notice firewall: Reloading firewall due to ifup of CUCC_6 (pppoe-CUCC)
+Wed Apr 26 07:15:57 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of CUCC_6 (pppoe-CUCC)
+Wed Apr 26 07:16:00 2023 user.err ddns-scripts[10943]: cuccv6: cURL Error: '6'
+Wed Apr 26 07:16:01 2023 user.warn ddns-scripts[10943]: cuccv6: Transfer failed - retry 1/0 in 60 seconds
+Wed Apr 26 07:16:09 2023 user.notice firewall: Reloading firewall due to ifup of CMCC (pppoe-CMCC)
+Wed Apr 26 07:16:10 2023 user.notice nlbwmon: Reloading nlbwmon due to ifup of CMCC (pppoe-CMCC)
+Wed Apr 26 07:16:11 2023 user.notice ddns-scripts[20205]: cmccv6: PID '20205' started at 2023-04-26 07:16
